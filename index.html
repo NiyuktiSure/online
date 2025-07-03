@@ -63,6 +63,23 @@
       font-size: 14px;
       color: #666;
     }
+   /* Mobile responsiveness */
+      @media (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        ul {
+          flex-direction: column;
+          width: 100%;
+        }
+        li a {
+          padding: 10px 15px;
+        }
+        li ul {
+          position: static;
+        }
+      }
   </style>
 </head>
 <body>
